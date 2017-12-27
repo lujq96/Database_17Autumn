@@ -16,7 +16,7 @@ constraint GENDERCK check (BGender IN ('F','M'))
 create table SELLER
 (
   sellerid  NUMBER(7) not null,
-  sname     VARCHAR2(12) not null,
+  sname     VARCHAR2(50) not null,
   semail    VARCHAR2(50) not null,
   stele     NUMBER(15) not null,
   spassword VARCHAR2(20) not null,

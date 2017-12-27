@@ -1,0 +1,2 @@
+input_data.pdc 为运行的所有insert的SQL语句，相当于日志文件
+bin文件夹中的exe可以执行
