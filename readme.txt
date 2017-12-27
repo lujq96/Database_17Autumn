@@ -1,2 +1,10 @@
-input_data.pdc 为运行的所有insert的SQL语句，相当于日志文件
-bin文件夹中的exe可以执行
+管理员账户
+admin	admin
+
+消费者账户
+jr001@qq.com	password
+zhy14@mails.edu.cn	123456
+qxh@tsinghua.edu.cn	123456
+
+商家账户
+lqd@jd.com	woshiliuqiangdong
