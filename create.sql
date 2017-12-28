@@ -137,5 +137,6 @@ constraint OSFK foreign key (SELLID)
 CREATE table Manager(
  username varchar2(10) NOT NULL,
  password varchar2(16) NOT NULL,
+ mngid    NUMBER(3) not null,
  CONSTRAINT ManagerPK PRIMARY KEY (username)
 )
