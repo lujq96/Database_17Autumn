@@ -114,7 +114,7 @@ create table ORDERSHEET
 (
   orderid NUMBER(8) not null,
   ostate  NUMBER(1) default 0 not null,
-  odate   DATE,
+  odate   TIMESTAMP,
   buyerid NUMBER(7) not null,
 constraint ORDERSHEETPK primary key (ORDERID),
 constraint ORDERBUYFK foreign key (BUYERID)
